@@ -9,7 +9,7 @@ Landing page estática com HTML semântico, CSS mobile-first e JavaScript vanill
 - `js/main.js` — menu mobile, animações de entrada, FAQ e tracking opcional
 - `wrangler.jsonc` — publicação das páginas e imagens estáticas no Worker `preset-adg`
 - `assets/img/` — banner desktop/mobile, logo e imagens das especialidades
-- `areas-editorial-backup.html` — markup de backup da antiga lista de especialidades
+- `DIARIO.md` — decisões de design, alterações e instruções operacionais do preset
 
 ## Personalização
 

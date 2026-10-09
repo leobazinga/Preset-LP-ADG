@@ -21,7 +21,7 @@ No Windows, depois de editar e salvar a LP, dê dois cliques em `publicar-lp.cmd
 - `preset-advogado/css/style.css` — design responsivo, cores e animações
 - `preset-advogado/js/main.js` — navegação mobile, reveal e FAQ
 - `preset-advogado/assets/img/` — imagens otimizadas, originais e logo
-- `preset-advogado/areas-editorial-backup.html` — versão anterior da seção de áreas, mantida para restauração
+- `preset-advogado/DIARIO.md` — histórico de decisões e alterações do preset
 
 ## Personalizar para outro escritório
 
