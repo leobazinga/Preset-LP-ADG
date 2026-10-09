@@ -70,8 +70,6 @@ button { font: inherit; }
 .hero-cinema__backdrop { position: relative; z-index: -1; width: 100%; }
 .hero-cinema__backdrop picture { display: block; width: 100%; }
 .hero-cinema__img { width: 100%; height: auto; object-fit: contain; }
-.hero-test-icon { position: absolute; z-index: 1; right: 8%; bottom: 12%; width: clamp(220px, 19vw, 340px); height: auto; color: #c49a59; opacity: .82; filter: drop-shadow(0 8px 20px rgba(75,50,18,.18)); pointer-events: none; animation: emblem-drift 5.5s ease-in-out infinite; }
-@keyframes emblem-drift { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-10px) rotate(2deg); } }
 .hero-cinema__overlay-desktop, .hero-cinema__overlay-mobile { display: none; }
 .hero-cinema__container { position: relative; z-index: 1; order: 1; margin-top: -1px; padding-top: 30px; padding-bottom: 28px; }
 .hero-cinema__copy { max-width: 670px; }
@@ -306,7 +304,6 @@ button { font: inherit; }
   .btn--gold-header { width: 39px; min-height: 39px; padding: 0; overflow: hidden; gap: 0; font-size: 0; }
   .btn--gold-header svg { width: 16px; height: 16px; flex: 0 0 16px; }
   .hero-cinema { display: block; }
-  .hero-test-icon { display: none; }
   .hero-cinema__backdrop { position: relative; inset: auto; z-index: 0; width: 100%; overflow: hidden; }
   .hero-cinema__backdrop picture { position: relative; display: block; width: 100%; height: clamp(500px, 137vw, 590px); overflow: hidden; }
   .hero-cinema__backdrop picture::after { position: absolute; right: 0; bottom: -1px; left: 0; height: 84%; content: ""; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.72) 22%, rgba(255,255,255,.97) 42%, #fff 60%); pointer-events: none; }
