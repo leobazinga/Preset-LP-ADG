@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- [CONFIG CLIENTE] SEO & Marca -->
+  <title>Dra. Denise Vargas Freire | Advocacia & Consultoria Estratégica</title>
+  <meta name="description" content="Defesa jurídica estratégica, transparente e resolutiva. Atendimento direto com a advogada especialista para todo o Brasil. Fale no WhatsApp.">
+  <meta name="theme-color" content="#120F0C">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dra. Denise Vargas Freire | Advocacia Estratégica">
+  <meta property="og:description" content="Defesa jurídica de alto padrão. Atendimento humanizado direto com a advogada.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="assets/img/denise-desktop.webp">
+
+  <!-- Tipografia Editorial: Playfair Display + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org LegalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Dra. Denise Vargas Freire Advocacia",
+    "description": "Advocacia e Consultoria Jurídica Estratégica.",
+    "telephone": "+55-11-99999-9999",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== 1. CABEÇALHO ELEGANTE (TRANSPARENTE NO TOPO, ESCURO/VIDRO NO SCROLL) ========== -->
+  <header class="site-header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#topo" aria-label="Início">
+        <img src="assets/img/logo-denise-gold.png" alt="DVF Advocacia" class="brand__logo-img">
+        <div class="brand__text">
+          <b>DRA. DENISE VARGAS FREIRE</b>
+          <small>ADVOCACIA & CONSULTORIA</small>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegação Principal">
+        <a href="#atuacao">Áreas de Atuação</a>
+        <a href="#sobre">A Advogada</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <div class="header__actions">
+        <!-- [CONFIG CLIENTE] WhatsApp Header -->
+        <a class="btn btn--gold-header" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Acessei%20o%20site%20e%20gostaria%20de%20um%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 1.67c4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+          <span>Falar no WhatsApp</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MENU MOBILE ========== -->
+  <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer__overlay" data-menu-close></div>
+    <div class="mobile-drawer__panel">
+      <div class="mobile-drawer__header">
+        <img src="assets/img/logo-denise-gold.png" alt="DVF" class="mobile-drawer__logo">
+        <button class="mobile-drawer__close" aria-label="Fechar menu" data-menu-close>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <nav class="mobile-drawer__nav">
+        <a href="#atuacao" class="mobile-link">Áreas de Atuação</a>
+        <a href="#sobre" class="mobile-link">Sobre a Dra. Denise</a>
+        <a href="#diferenciais" class="mobile-link">Nossos Diferenciais</a>
+        <a href="#depoimentos" class="mobile-link">Depoimentos</a>
+        <a href="#faq" class="mobile-link">Dúvidas Frequentes</a>
+        <a href="#contato" class="mobile-link">Contato Direto</a>
+      </nav>
+      <div class="mobile-drawer__footer">
+        <a class="btn btn--gold-cinema btn--full" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Acessei%20o%20site%20e%20gostaria%20de%20atendimento." target="_blank" rel="noopener noreferrer">
+          <span>Iniciar Conversa no WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <main id="topo">
+
+    <!-- ========== 2. HERO CINEMATOGRÁFICA (FOTO INTEIRA NO DESKTOP & MOBILE ADAPTADO) ========== -->
+    <section class="hero-cinema">
+      <!-- Artes específicas do banner: desktop horizontal e mobile vertical -->
+      <div class="hero-cinema__backdrop" aria-hidden="true">
+        <picture>
+          <source media="(max-width: 699px)" srcset="assets/img/denise-mobile.webp" type="image/webp">
+          <img src="assets/img/denise-desktop.webp" alt="Dra. Denise Vargas Freire, advogada" class="hero-cinema__img" fetchpriority="high" width="2560" height="1440">
+        </picture>
+        <div class="hero-cinema__overlay-desktop"></div>
+        <div class="hero-cinema__overlay-mobile"></div>
+      </div>
+
+      <div class="container hero-cinema__container">
+        <div class="hero-cinema__copy reveal">
+
+          <div class="badge-pill">
+            <span class="badge-pill__dot"></span>
+            <span>OAB ESPECIALISTA &bull; ATENDIMENTO NACIONAL</span>
+          </div>
+
+          <h1 class="hero-cinema__title">
+            <span class="hero-title-desktop">Defendemos seu patrimônio e seus direitos com <span class="highlight-gold">estratégia, combate e proximidade.</span></span><span class="hero-title-mobile">Seus direitos, protegidos com <span class="highlight-gold">estratégia e proximidade.</span></span>
+          </h1>
+
+          <p class="hero-cinema__lead">
+            Atendimento direto com a <strong>Dra. Denise Vargas Freire</strong>. Estratégia clara, sigilo e acompanhamento próximo, sem intermediários.
+          </p>
+
+          <div class="hero-cinema__cta">
+            <a class="btn btn--gold-cinema pulse-gold" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Vim%20pelo%20site%20e%20gostaria%20de%20analisar%20meu%20caso." target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 1.67c4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+              <span>Analisar Meu Caso no WhatsApp</span>
+            </a>
+            <a class="btn-ghost-cinema" href="#atuacao">
+              <span>Conhecer Especialidades</span>
+            </a>
+          </div>
+
+          <div class="hero-cinema__trust">
+            <span>🔒 Sigilo profissional absoluto</span>
+            <span>⚖️ 100% online sem deslocamentos</span>
+            <span>⚡ Resposta ágil em minutos</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Suave da Hero para o Fundo Branco -->
+    <div class="hero-seam" aria-hidden="true"></div>
+
+    <!-- ========== 3. FAIXA DE MÉTRICAS (FUNDO BRANCO/CRISTALINO) ========== -->
+    <section class="section-stats-clean" aria-label="Credenciais">
+      <div class="container stats-clean__grid">
+        <div class="stat-clean-item reveal">
+          <b class="stat-clean-val">+15</b>
+          <span class="stat-clean-lbl">anos de dedicação ao direito estratégico</span>
+        </div>
+        <div class="stat-clean-item reveal" style="--d:0.1s">
+          <b class="stat-clean-val">+3.200</b>
+          <span class="stat-clean-lbl">processos conduzidos com transparência</span>
+        </div>
+        <div class="stat-clean-item reveal" style="--d:0.2s">
+          <b class="stat-clean-val">99%</b>
+          <span class="stat-clean-lbl">clientes satisfeitos com o atendimento humanizado</span>
+        </div>
+        <div class="stat-clean-item reveal" style="--d:0.3s">
+          <b class="stat-clean-val">100%</b>
+          <span class="stat-clean-lbl">atuação digital em todo o território nacional</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. BLOCO EDITORIAL (COM O CARD DA TÊMIS QUE O CLIENTE GOSTOU) ========== -->
+    <section class="section section-editorial-white" id="sobre">
+      <div class="container">
+
+        <div class="editorial-white-grid reveal">
+
+          <!-- Card de Imagem da Deusa da Justiça com Badge Flutuante -->
+          <div class="editorial-image-frame">
+            <img src="assets/img/legal-court.jpg" alt="Estruture sua defesa jurídica" class="editorial-frame-img">
+            <div class="editorial-floating-pill">
+              <span>ESTRUTURE SUA DEFESA JURÍDICA</span>
+            </div>
+          </div>
+
+          <!-- Texto Editorial Sem Caixas Extras -->
+          <div class="editorial-white-text">
+            <span class="eyebrow-gold">METODOLOGIA EXCLUSIVA</span>
+            <h2 class="editorial-title">Você precisa de acompanhamento jurídico <span class="highlight-gold">de verdade.</span></h2>
+
+            <p class="editorial-lead-p">
+              De nada adianta ingressar com uma ação se você fica no escuro, sem respostas e sem conseguir falar com quem realmente comanda o seu caso.
+            </p>
+            <p class="editorial-lead-p">
+              De nada adianta ter o direito do seu lado se a estratégia for lenta e desatenta aos detalhes que os juízes realmente analisam.
+            </p>
+
+            <div class="quote-strip">
+              <p>“O princípio do seu sucesso está em um planejamento jurídico sério, transparente e firme. Aqui você fala diretamente comigo.”</p>
+              <cite>— Dra. Denise Vargas Freire &bull; OAB/SP 123.456</cite>
+            </div>
+
+            <div class="editorial-action">
+              <a class="btn btn--gold-cinema" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Gostaria%20de%20conversar%20sobre%20meu%20caso." target="_blank" rel="noopener noreferrer">
+                <span>Conversar com a Dra. Denise no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 5. ÁREAS DE ATUAÇÃO (SEM QUADRADOS! LISTA EDITORIAL FLUIDA) ========== -->
+    <section class="section section-areas-clean" id="atuacao">
+      <div class="container">
+
+        <div class="clean-section-head reveal">
+          <span class="eyebrow-gold">ESPECIALIDADES</span>
+          <h2 class="clean-title">Como podemos ajudar <span class="highlight-gold">você hoje?</span></h2>
+          <p class="clean-sub">Atuação focada e combativa nas áreas com maior impacto no seu patrimônio e tranquilidade.</p>
+        </div>
+
+        <!-- Painéis fotográficos inspirados na referência visual enviada -->
+        <div class="practice-gallery">
+          <a class="practice-tile practice-tile--civil reveal" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20atendimento%20em%20Direito%20Civil." target="_blank" rel="noopener noreferrer">
+            <img class="practice-tile__image" src="assets/img/legal-library.jpg" alt="Biblioteca de livros jurídicos" loading="lazy" decoding="async">
+            <span class="practice-tile__number">01 <i></i> CIVIL & PATRIMÔNIO</span>
+            <span class="practice-tile__copy"><strong>Direito Civil & Contratos</strong><small>Inventários, contratos e proteção patrimonial.</small><em>Conhecer a atuação <b aria-hidden="true">↗</b></em></span>
+          </a>
+          <a class="practice-tile practice-tile--labor reveal" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20atendimento%20em%20Direito%20Trabalhista." target="_blank" rel="noopener noreferrer">
+            <img class="practice-tile__image" src="assets/img/handshake-trust.jpg" alt="Aperto de mãos em reunião profissional" loading="lazy" decoding="async">
+            <span class="practice-tile__number">02 <i></i> TRABALHO</span>
+            <span class="practice-tile__copy"><strong>Direito Trabalhista</strong><small>Verbas, rescisões e direitos do trabalhador.</small><em>Conhecer a atuação <b aria-hidden="true">↗</b></em></span>
+          </a>
+          <a class="practice-tile practice-tile--social reveal" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20atendimento%20em%20Direito%20Previdenci%C3%A1rio." target="_blank" rel="noopener noreferrer">
+            <img class="practice-tile__image" src="assets/img/legal-contracts.jpg" alt="Assinatura de um documento" loading="lazy" decoding="async">
+            <span class="practice-tile__number">03 <i></i> PREVIDÊNCIA</span>
+            <span class="practice-tile__copy"><strong>Direito Previdenciário</strong><small>Aposentadoria, benefícios e planejamento INSS.</small><em>Conhecer a atuação <b aria-hidden="true">↗</b></em></span>
+          </a>
+          <a class="practice-tile practice-tile--bank reveal" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20atendimento%20em%20Direito%20Banc%C3%A1rio." target="_blank" rel="noopener noreferrer">
+            <img class="practice-tile__image" src="assets/img/legal-finance.jpg" alt="Celular com calculadora sobre documentos" loading="lazy" decoding="async">
+            <span class="practice-tile__number">04 <i></i> BANCÁRIO</span>
+            <span class="practice-tile__copy"><strong>Direito Bancário</strong><small>Contratos, juros e cobranças indevidas.</small><em>Conhecer a atuação <b aria-hidden="true">↗</b></em></span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 6. DIFERENCIAIS (COLUNAS ABERTAS E AREJADAS - SEM CAIXAS) ========== -->
+    <section class="section section-pillars-open" id="diferenciais">
+      <div class="container">
+
+        <div class="clean-section-head reveal">
+          <span class="eyebrow-gold">NOSSOS PILARES</span>
+          <h2 class="clean-title">Por que nossos clientes <span class="highlight-gold">confiam em nós?</span></h2>
+        </div>
+
+        <!-- 3 Colunas Abertas Diretamente na Página (Sem quadrados!) -->
+        <div class="pillars-open-grid">
+
+          <div class="pillar-column reveal">
+            <div class="pillar-3d-wrap float-3d-1">
+              <img src="assets/img/chat-text-dynamic-premium.png" alt="Contato Direto 3D" class="icon-3d-pillar">
+            </div>
+            <h3>Contato Direto com a Advogada</h3>
+            <p>Você é atendido pela Dra. Denise. Sem robôs automáticos ou atendentes que não sabem nada da sua causa. Diálogo humanizado e transparente do início ao fim.</p>
+          </div>
+
+          <div class="pillar-column reveal" style="--d:0.1s">
+            <div class="pillar-3d-wrap float-3d-2">
+              <img src="assets/img/target-dynamic-premium.png" alt="Viabilidade Real 3D" class="icon-3d-pillar">
+            </div>
+            <h3>Análise Real de Viabilidade</h3>
+            <p>Não criamos falsas ilusões. Se o seu caso não tiver fundamento legal consistente, dizemos a verdade com honestidade antes de qualquer gasto desnecessário.</p>
+          </div>
+
+          <div class="pillar-column reveal" style="--d:0.2s">
+            <div class="pillar-3d-wrap float-3d-3">
+              <img src="assets/img/lock-dynamic-premium.png" alt="Transparência 3D" class="icon-3d-pillar">
+            </div>
+            <h3>Honorários Cristalinos</h3>
+            <p>Contrato claro e sem surpresas. Condições combinadas antes de qualquer medida judicial ou extrajudicial, em estrito acordo com a OAB.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 7. DEPOIMENTOS (EDITORIAL ABERTO - SEM QUADRADOS) ========== -->
+    <section class="section section-quotes-open" id="depoimentos">
+      <div class="container">
+
+        <div class="clean-section-head reveal">
+          <span class="eyebrow-gold">RECONHECIMENTO</span>
+          <h2 class="clean-title">O que dizem os clientes atendidos pela <span class="highlight-gold">Dra. Denise</span></h2>
+        </div>
+
+        <!-- [TROCAR] Substituir pelos depoimentos reais autorizados pela cliente -->
+        <div class="quotes-open-grid">
+
+          <div class="quote-open-item reveal">
+            <div class="quote-stars">★★★★★</div>
+            <p class="quote-text">
+              “Eu tinha dúvidas sobre por onde começar. A Dra. Denise explicou as etapas com calma e foi me orientando conforme o caso avançava. Isso me deixou muito mais tranquila.”
+            </p>
+            <div class="quote-author-info">
+              <b>Cliente de Direito do Trabalho</b>
+              <small>Atendimento jurídico</small>
+            </div>
+          </div>
+
+          <div class="quote-open-item reveal" style="--d:0.1s">
+            <div class="quote-stars">★★★★★</div>
+            <p class="quote-text">
+              “O que mais gostei foi conseguir falar com a própria advogada e entender o que estava acontecendo. As respostas eram claras, sem aquele monte de termos difíceis.”
+            </p>
+            <div class="quote-author-info">
+              <b>Cliente de Direito Previdenciário</b>
+              <small>Atendimento jurídico</small>
+            </div>
+          </div>
+
+          <div class="quote-open-item reveal" style="--d:0.2s">
+            <div class="quote-stars">★★★★★</div>
+            <p class="quote-text">
+              “Fiz o primeiro atendimento pelo WhatsApp e achei o processo bem organizado. Recebi uma orientação objetiva e sabia quais documentos precisava separar.”
+            </p>
+            <div class="quote-author-info">
+              <b>Cliente de Direito Bancário</b>
+              <small>Atendimento jurídico</small>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 8. FAQ ACCORDION CLEAN COM LINHAS SUTIS ========== -->
+    <section class="section section-faq-clean" id="faq">
+      <div class="container faq-split-layout">
+
+        <div class="faq-split-left reveal">
+          <span class="eyebrow-gold">DÚVIDAS FREQUENTES</span>
+          <h2 class="clean-title">Respostas claras para as suas <span class="highlight-gold">principais perguntas.</span></h2>
+          <p class="clean-sub">Tem uma dúvida específica sobre seu caso? Clique no botão e converse diretamente no WhatsApp.</p>
+          <a class="btn btn--gold-cinema" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20meu%20caso." target="_blank" rel="noopener noreferrer">
+            <span>Tirar Dúvida no WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="faq-split-accordion">
+
+          <div class="faq-line-item reveal">
+            <button class="faq-line-trigger" aria-expanded="false">
+              <span>Como funciona a consulta pelo WhatsApp?</span>
+              <span class="faq-line-icon">&plus;</span>
+            </button>
+            <div class="faq-line-body" hidden>
+              <p>Você entra em contato pelo botão, relata brevemente a sua dúvida e nos envia os documentos por foto ou PDF. A Dra. Denise analisa a viabilidade com sigilo absoluto e orienta sobre o melhor caminho jurídico.</p>
+            </div>
+          </div>
+
+          <div class="faq-line-item reveal" style="--d:0.05s">
+            <button class="faq-line-trigger" aria-expanded="false">
+              <span>O atendimento online tem a mesma validade do presencial?</span>
+              <span class="faq-line-icon">&plus;</span>
+            </button>
+            <div class="faq-line-body" hidden>
+              <p>Sim! Os processos judiciais no Brasil são 100% eletrônicos. Contratos de honorários e procurações são assinados com certificado digital pelo celular, com plena validade jurídica pela Lei 14.063/20.</p>
+            </div>
+          </div>
+
+          <div class="faq-line-item reveal" style="--d:0.1s">
+            <button class="faq-line-trigger" aria-expanded="false">
+              <span>Como funcionam os honorários advocatícios?</span>
+              <span class="faq-line-icon">&plus;</span>
+            </button>
+            <div class="faq-line-body" hidden>
+              <p>Trabalhamos de acordo com a Tabela da OAB. Em causas trabalhistas e certas previdenciárias, os honorários costumam ser combinados no êxito (você paga apenas quando receber). Em outras causas, oferecemos parcelamento facilitado.</p>
+            </div>
+          </div>
+
+          <div class="faq-line-item reveal" style="--d:0.15s">
+            <button class="faq-line-trigger" aria-expanded="false">
+              <span>Quanto tempo demora para resolver o meu caso?</span>
+              <span class="faq-line-icon">&plus;</span>
+            </button>
+            <div class="faq-line-body" hidden>
+              <p>O prazo varia de acordo com a área e a vara do tribunal. Medidas de urgência (liminares) costumam ser analisadas em dias. Na primeira consulta, fornecemos uma estimativa realista baseada no histórico da sua região.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 9. CTA FINAL IMERSIVO (FAIXA COMPLETA DE 100% DE LARGURA - SEM CAIXINHA PERDIDA) ========== -->
+    <section class="section-closing-band" id="contato">
+      <div class="container closing-band__inner reveal">
+        <div class="badge-pill">
+          <span class="badge-pill__dot"></span>
+          <span>ANÁLISE INICIAL PRIORITÁRIA</span>
+        </div>
+
+        <h2 class="closing-band__title">
+          Não deixe o seu prazo prescrever. <span class="highlight-gold">Converse hoje com quem entende.</span>
+        </h2>
+
+        <p class="closing-band__lead">
+          No Direito, o tempo é decisivo. Fale diretamente com a Dra. Denise Vargas Freire e tenha um parecer jurídico rápido, seguro e sem burocracia.
+        </p>
+
+        <div class="closing-band__actions">
+          <a class="btn btn--gold-cinema pulse-gold" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Gostaria%20de%20iniciar%20uma%20consulta." target="_blank" rel="noopener noreferrer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 1.67c4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+            <span>Falar Agora no WhatsApp</span>
+          </a>
+          <a class="closing-phone" href="tel:+5511999999999">
+            <span>(11) 99999-9999</span>
+          </a>
+        </div>
+
+        <span class="closing-compliance">
+          🔒 Atendimento sigiloso em total conformidade com o Código de Ética e Disciplina da OAB.
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 10. RODAPÉ INSTITUCIONAL (PRETO & DOURADO) ========== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div class="footer-col-main">
+        <div class="brand">
+          <img src="assets/img/logo-denise-gold.png" alt="DVF" class="brand__logo-img">
+          <div class="brand__text">
+            <b>DRA. DENISE VARGAS FREIRE</b>
+            <small>ADVOCACIA & CONSULTORIA</small>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Defesa jurídica estratégica em Direito Civil, Trabalhista, Previdenciário e Bancário. Atendimento ágil e 100% digital em todo o Brasil.
+        </p>
+        <span class="footer-oab">Dra. Denise Vargas Freire &bull; OAB/SP 123.456</span>
+      </div>
+
+      <div class="footer-col-nav">
+        <h4>Navegação</h4>
+        <a href="#atuacao">Áreas de Atuação</a>
+        <a href="#sobre">Sobre a Advogada</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">Dúvidas Frequentes</a>
+      </div>
+
+      <div class="footer-col-contact">
+        <h4>Contato & Sede</h4>
+        <p><b>WhatsApp:</b> (11) 99999-9999</p>
+        <p><b>E-mail:</b> contato@denisevargasfreire.adv.br</p>
+        <p><b>Atendimento:</b> Segunda a Sexta, 08h30 às 18h30</p>
+        <p><b>Endereço:</b> Av. Paulista, 1000 - São Paulo/SP</p>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Dra. Denise Vargas Freire Advocacia. Todos os direitos reservados.</p>
+      <p class="footer-oab-disclaimer">Este site possui caráter estritamente institucional e informativo, em observância ao Código de Ética e Disciplina da OAB.</p>
+    </div>
+  </footer>
+
+  <!-- ========== 11. BOTÃO WHATSAPP FLUTUANTE (MÁXIMA CONVERSÃO) ========== -->
+  <a class="floating-whatsapp" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dra.%20Denise!%20Vim%20pelo%20site%20e%20gostaria%20de%20uma%20consulta." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <div class="floating-whatsapp__pulse"></div>
+    <div class="floating-whatsapp__badge">1</div>
+    <div class="floating-whatsapp__tooltip">Fale com a Dra. Denise</div>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 1.67c4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
