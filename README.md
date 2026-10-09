@@ -13,6 +13,8 @@ python -m http.server 8000
 
 Depois acesse `http://localhost:8000`.
 
+No Windows, depois de editar e salvar a LP, dê dois cliques em `publicar-lp.cmd` para criar um commit apenas da pasta do preset e enviar para `main`. O Cloudflare faz o deploy depois do push. Salvar no editor, sem executar esse envio, não publica a alteração.
+
 ## Estrutura
 
 - `preset-advogado/index.html` — conteúdo, SEO e metadados

@@ -22,3 +22,5 @@ Landing page estática com HTML semântico, CSS mobile-first e JavaScript vanill
 Para preview local: `python -m http.server 8000` nesta pasta e abra `http://localhost:8000`.
 
 No Cloudflare Workers Builds, selecione a branch `main`, defina `preset-advogado` como diretório raiz, deixe o comando de build vazio e use `npx wrangler deploy` para implantação.
+
+No Windows, salve suas alterações e execute `publicar-lp.cmd`, na raiz do repositório, para enviar a atualização sem digitar os comandos do Git.
