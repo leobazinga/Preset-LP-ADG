@@ -13,7 +13,7 @@ python -m http.server 8000
 
 Depois acesse `http://localhost:8000`.
 
-No Windows, depois de editar e salvar a LP, dê dois cliques em `publicar-lp.cmd` para criar um commit apenas da pasta do preset e enviar para `main`. O Cloudflare faz o deploy depois do push. Salvar no editor, sem executar esse envio, não publica a alteração.
+No Windows, depois de editar e salvar a LP, dê dois cliques em `publicar-lp.cmd`. O script cria um commit com a mensagem genérica `Atualiza LP` e envia apenas a pasta do preset para `main`; o Cloudflare publica depois do push. Salvar no editor, sem executar esse envio, não publica a alteração.
 
 ## Estrutura
 

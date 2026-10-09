@@ -23,4 +23,4 @@ Para preview local: `python -m http.server 8000` nesta pasta e abra `http://loca
 
 No Cloudflare Workers Builds, selecione a branch `main`, defina `preset-advogado` como diretório raiz, deixe o comando de build vazio e use `npx wrangler deploy` para implantação.
 
-No Windows, salve suas alterações e execute `publicar-lp.cmd`, na raiz do repositório, para enviar a atualização sem digitar os comandos do Git.
+No Windows, salve suas alterações e dê dois cliques em `publicar-lp.cmd`, na raiz do repositório. Ele usa a mensagem genérica `Atualiza LP` e envia a pasta do preset sem precisar digitar comandos do Git ou escrever uma mensagem de commit.

@@ -12,8 +12,7 @@ git diff --cached --quiet
 if not errorlevel 1 goto no_changes
 
 set "commit_message=%~1"
-if "%commit_message%"=="" set /p "commit_message=Mensagem do commit: "
-if "%commit_message%"=="" set "commit_message=Atualiza LP advogado"
+if "%commit_message%"=="" set "commit_message=Atualiza LP"
 
 git commit -m "%commit_message%"
 if errorlevel 1 goto failed
