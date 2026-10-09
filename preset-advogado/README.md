@@ -7,6 +7,7 @@ Landing page estática com HTML semântico, CSS mobile-first e JavaScript vanill
 - `index.html` — conteúdo e links de conversão
 - `css/style.css` — layout, cores, breakpoints e interações
 - `js/main.js` — menu mobile, animações de entrada, FAQ e tracking opcional
+- `wrangler.jsonc` — publicação das páginas e imagens estáticas no Worker `preset-adg`
 - `assets/img/` — banner desktop/mobile, logo e imagens das especialidades
 - `areas-editorial-backup.html` — markup de backup da antiga lista de especialidades
 
@@ -19,3 +20,5 @@ Landing page estática com HTML semântico, CSS mobile-first e JavaScript vanill
 5. Se substituir as imagens do hero, mantenha uma arte horizontal desktop e outra vertical mobile e atualize o `<picture>`.
 
 Para preview local: `python -m http.server 8000` nesta pasta e abra `http://localhost:8000`.
+
+No Cloudflare Workers Builds, selecione a branch `main`, defina `preset-advogado` como diretório raiz, deixe o comando de build vazio e use `npx wrangler deploy` para implantação.

@@ -26,3 +26,7 @@ Depois acesse `http://localhost:8000`.
 Troque no HTML o nome/OAB, WhatsApp, e-mail, endereço, áreas, métricas e conteúdo de depoimentos. Use somente dados e depoimentos autorizados pelo cliente. As imagens da Denise podem ser substituídas mantendo os arquivos WebP `denise-desktop.webp` e `denise-mobile.webp` ou atualizando os caminhos no elemento `<picture>`.
 
 As cores e a tipografia ficam no início de `css/style.css`, nas variáveis de `:root`.
+
+## Publicar atualizações
+
+O Worker `preset-adg` está configurado para usar este repositório. No Cloudflare Workers Builds, use a branch `main`, o diretório raiz `preset-advogado`, deixe o comando de build vazio e mantenha `npx wrangler deploy` como comando de implantação. Depois de salvar uma alteração e enviar um commit para `main`, o Cloudflare publica automaticamente a nova versão.
