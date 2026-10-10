@@ -13,6 +13,8 @@ Este arquivo registra as decisões e mudanças do preset, sem guardar cópias an
 - Configurado o Worker `preset-adg` em `wrangler.jsonc` com arquivos estáticos servidos a partir desta pasta.
 - Conectado Workers Builds ao repositório `leobazinga/Preset-LP-ADG`, branch `main`, raiz `preset-advogado`. O build de produção foi validado com sucesso.
 - Criado `publicar-lp.cmd`: prepara as alterações em `preset-advogado`, cria um commit com mensagem genérica e envia para `main`. Cada push inicia o deploy no Cloudflare.
+- Limpeza solicitada: `LPs Mensal` agora mantém somente `OpenCode LP`. Removidos o preset antigo rejeitado, arquivos gerais da operação e duplicatas dos originais da Denise; os originais usados pelo preset permanecem em `assets/img/`.
+- Removidos o ZIP duplicado, o markup de backup e ícones de rascunhos. O histórico fica neste diário, sem cópias antigas da LP.
 
 ## Fluxo de atualização
 
@@ -20,7 +22,7 @@ Este arquivo registra as decisões e mudanças do preset, sem guardar cópias an
 2. Dê dois cliques em `publicar-lp.cmd`, na raiz do repositório.
 3. Aguarde a mensagem de envio concluído e confira o build em **Cloudflare → Workers & Pages → preset-adg → Implantações**.
 
-Salvar no editor altera apenas os arquivos locais; executar o publicador envia a versão para produção. Ele ignora o ZIP local e publica apenas a pasta do preset.
+Salvar no editor altera apenas os arquivos locais; executar o publicador envia a versão para produção. O script envia apenas a pasta do preset; o fluxo não usa ZIP.
 
 ## Pendências antes de entregar uma LP a um cliente
 
